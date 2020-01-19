@@ -32,6 +32,16 @@ display: inline-block;
 fonts use:
 font-family: 'Raleway',sans-serif;
 */
+/*:root {*/
+/*  --light-grey: #e2e2e4;*/
+/*  --med-grey: #a9a9a9;*/
+/*  --dark-grey: #626262;*/
+/*  --med-blue: #304055;*/
+/*  --dark-blue: #334155;*/
+/*  --black: #20212d;*/
+/*  --off-black: #393b3d;*/
+/*  --white: #ffffff;*/
+/*}*/
 *,
 *::after,
 *::before {
@@ -99,6 +109,8 @@ body {
 
 .section-three {
   background-color: #626262;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
 }
 
